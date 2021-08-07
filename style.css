@@ -60,7 +60,8 @@
 }.home{
   margin: auto;
 }.navbaa{
-  width: 100%;
+  width:100%;
+  padding: auto;
 }.bdy{
   margin: 2%;
 }.input-val{
@@ -84,7 +85,5 @@
   -o-object-fit: cover;
   background-position: center;
 }#btn-cmt{
-height: 40%;
-width: 31%;
-color: bg-info;
+
 }
