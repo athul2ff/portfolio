@@ -12,13 +12,8 @@
       
      <link rel="stylesheet" href="css/screen.css">
      <link rel="stylesheet" href="css/styles.css">
-
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/305883a15f.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.js"></script>   
-    <script src="action.js"></script>
-    
+     <script src="https://kit.fontawesome.com/305883a15f.js" crossorigin="anonymous"></script>
+  
   </head>
   <body class="bdy" >
     
@@ -81,9 +76,9 @@
          
           <div class="container">
             <div class="row">
-              <div class= " col-md-6 col-lg-3 mt-5">
+              <div class= " col-md-6 col-lg-3 mt-5 ">
            
-             <div class="card" style="width: 15rem;">
+             <div class="card" style="width: 15rem; ">
             <img class="card-img-top  " src="ed5f0bd8b4ebf6ae3a9fe9fc0c3140c8.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">mongoDB</h5>
@@ -106,7 +101,7 @@
           <div class="card" style="width: 15rem;">
             <img class="card-img-top" src="images.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">ReactNative</h5>
+              <h5 class="card-title">React</h5>
               <p class="card-text"> It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.</p>
               
             </div>
@@ -127,18 +122,14 @@
          </div>
          </div>
 
-         
-
-
-
      <div id="half-part" class="container">
         <div class="row">
 
       
-       <div   class="col-md-7"><br> <br>
+       <div style="  margin-top: 30px;"  class="col-md-7">
        <h3 style="color: gray;">More about Me_</h3>
        
-       <h5  id="bio">b'dy _17_1_1998 <br>hobby/strength/Weakness _ am love to think more; <br> educ._ THSLC_in 2012 with mech eng ,welding and Eng.drawing <br> _ +2 commers With comuter applications in zamorince hss 2014. <br> <h5 style="float: left; color:gray;">_2021 -get a oppertunity participate </h5> <h5 style="float: left; padding-left: 5px;"><b> CROSS</b></h5><h5 style="color: red; float: left;"><b>ROADS</b></h5><h5 style="color: gray;">ACADAMY_</h5></h5>
+       <h5  style="color: gray;" id="bio">b'dy _17_1_1998 <br>hobby/strength/Weakness _ am love to think more; <br> educ._ THSLC_in 2012 with mech eng ,welding and Eng.drawing <br> _ +2 commers With comuter applications in zamorince hss 2014. <br> <h5 style="float: left; color:gray;">_2021 -get a oppertunity participate </h5> <h5 style="float: left; padding-left: 5px;"><b> CROSS</b></h5><h5 style="color: red; float: left;"><b>ROADS</b></h5><h5 style="color: gray;">ACADAMY_</h5></h5>
        
        </div>
         <div  class="col-md-5 col-12 ml-auto"><br><br>
@@ -156,31 +147,27 @@
          
         </div>
         <div  class="col-md-4 col-12 " style=" margin: auto; display: none;  " id="box-form"><br><br>
-         <form id="submit-form" name="sign-up" action="">
+         <form   id="submit-form" name="sign-up">
             <div>
-             <input minlength="4" name="NAME" class="input-val" style="height: 2%;" type="text" placeholder="Enter your Name" validate>
+             <input onkeypress="return(event.charCode > 64&& evnt.charCode<91 || (event.charCode>96 && event.charCode<123 ) || (event.charCode==32))" id="name" minlength="4" name="NAME"  class="input-val" style="height: 2%;" type="text" placeholder="Enter your Name" >
              <br><br>
-             <input name="MAIL" class="input-val" style="height: 2%;" type="email" placeholder="Email iD" required> 
+             <input onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" name="PHONE"  type="tel" style="height: 2%;" placeholder="Number" class="input-val"><br><br>
+             <input name="MAIL" class="input-val" style="height: 2%;" type="email" placeholder="Email iD" > 
              <br><br>
-             <textarea name="COMMENTS" style="height: 3%;" class="input-val" name="" id="" placeholder="Comments" required></textarea>
+             <textarea name="COMMENTS" style="height: 3%;" class="input-val"  placeholder="Comments" ></textarea>
              <br><br>
              <button  class="btn btn-primary btn-sm" value="submit">Submit</button>
-            
-             <h1></h1>
+            <h1></h1>
             </div>
-          
-            
          </form>
         </div>
         
        </div>
 
      </div>
-
-     <div>
-        
-     
+ 
       <br>
+      
 
        <hr>
        <a href=""><i class="fab fa-instagram fa-1g"></i></a>
@@ -190,15 +177,15 @@
             <a href="https://www.youtube.com/channel/UCmI8RaIJ_t3DyO1LmM6grgA"><i class="fab fa-youtube fa-1g"></i></a>
             <a href="https://accounts.google.com/AddSession?hl=en&continue=https://mail.google.com/mail&service=mail&ec=GAlAFw" style="text-decoration: none; float: right;"><h6 class="text-primary"> athul2ff@gmail.com</h6></a>
      </div>
-     
-   
-
-
-
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    
    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>   
+    <script src="action.js"></script>
+    
   </body>
 </html>
 

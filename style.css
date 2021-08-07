@@ -1,17 +1,12 @@
 
 .container{
-    /* margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%; */
-      
+   
     margin: auto;
     
     
 }.fountmain{
     color: gray
   
-}.row{
-  /* border: black; */
 }section{
   width: 100%;
 }.left{
@@ -19,22 +14,17 @@
   margin: auto;
 
 }.right{
-    /* float: left;  */
    margin: auto;
 }.react{
    margin: auto;
 }.card{
-  
+  border-color: #fff;
+  background-color: rgba(175, 145, 224, 0.082);
   margin:auto;
-  /* border: 0; */
 }.card{
-  /* float: left; */
-  
   margin:auto;
 }.logos{
   float: right;
-  /* padding-right: 5%;
-  padding-top: 6%; */
 }.card-img-top{
   height: 140px;
   
@@ -42,20 +32,15 @@
   color:gray;
 }.youtube{
   float: left;
-  /* margin: 2.3%; */
   margin: auto;
 }.footer{
-  /* margin-right: 10%; */
   margin: auto;
-}.linebr{
-  /* margin-right: 10%; */
+}.linebr{  
   margin: auto;
-}.frm{
-  /* float: left; */
+
 }
 .form{
   float: left;
-  /* margin-left: 10%; */
   margin: auto;
   
 }.cmmt-box{
