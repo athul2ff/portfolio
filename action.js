@@ -7,6 +7,7 @@ $(document).ready(function(){
   
     $("#submit-form").validate({
         rules:{
+            SUBMIT:{
             NAME:{
               required :true,
               minlength:3
@@ -15,8 +16,8 @@ $(document).ready(function(){
             },
             PHONE:{
                 required:true,
-                minlength:10,
-                maxlength:10
+                Number:true,
+                
             },
             MAIL:{
                 required:true,
@@ -25,6 +26,9 @@ $(document).ready(function(){
             COMMENTS:{
                 required:true
             },
+           
+                
+            }
             
         },
         submitHandler : function(form){

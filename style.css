@@ -5,8 +5,8 @@
     
     
 }.fountmain{
-    color: gray
-  
+  /* font-family: "Times New Roman", Times, serif */
+  font-family: "Lucida Console", "Courier New", monospace;
 }section{
   width: 100%;
 }.left{
@@ -18,18 +18,17 @@
 }.react{
    margin: auto;
 }.card{
-  border-color: #fff;
-  background-color: rgba(175, 145, 224, 0.082);
+ 
+  
   margin:auto;
 }.card{
   margin:auto;
 }.logos{
   float: right;
 }.card-img-top{
-  height: 140px;
+ height: 121px;
   
-}#bio{
-  color:gray;
+
 }.youtube{
   float: left;
   margin: auto;
@@ -66,10 +65,26 @@
   margin: 2%;
 }.input-val{
   width: 100%;
+  border: cornflowerblue;
+  border-radius: 6px;
   
   margin: auto;
 }
 #tophead{
   z-index: 1;
   background-color: blanchedalmond;
+}.card-text{
+   font-family: "Times New Roman", Times, serif
+}
+.bak-img{
+  height:auto;
+  width: auto;
+  background-image: url("https://images.unsplash.com/photo-1622629797619-c100e3e67e2e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHN3aW1taW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  object-fit: cover;
+  -o-object-fit: cover;
+  background-position: center;
+}#btn-cmt{
+height: 40%;
+width: 31%;
+color: bg-info;
 }
