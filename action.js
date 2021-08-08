@@ -7,16 +7,19 @@ $(document).ready(function(){
   
     $("#submit-form").validate({
         rules:{
-            SUBMIT:{
+           
             NAME:{
-              required :true,
+              
               minlength:3
              
                 
             },
             PHONE:{
                 required:true,
-                Number:true,
+                maxlength:10,
+                minlength:10,
+               
+              
                 
             },
             MAIL:{
@@ -28,9 +31,9 @@ $(document).ready(function(){
             },
            
                 
-            }
+            } ,required:true,
             
-        },
+    
         submitHandler : function(form){
 
         $.ajax({
