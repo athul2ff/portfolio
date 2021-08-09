@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#btn-cmt").click(function(){
-      $("#box-form").toggle(1000)
+      $("#box-form").toggle(600)
     }),
      
 

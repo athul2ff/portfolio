@@ -95,10 +95,10 @@
 }
 body{
   margin-top:0;
+  margin-right: 5px;
  
-}.bdy{
+}header{
+  width: auto;
   margin: 0%;
-
-}body{
-  padding: 0%;
-  margin: 0%;
+  width: 100%;
+}
